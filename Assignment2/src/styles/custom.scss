@@ -1,0 +1,39 @@
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../../node_modules/bootstrap/scss/_grid";
+@import "../../node_modules/bootstrap/scss/_card";
+@import "../../node_modules/bootstrap/scss/_modal";
+@import "../../node_modules/bootstrap/scss/_variables";
+@import "../../node_modules/bootstrap/scss/_nav";
+@import "../../node_modules/bootstrap/scss/_images";
+@import "../../node_modules/bootstrap/scss/_buttons";
+@import "../../node_modules/bootstrap/scss/_utilities";
+
+
+body{
+    
+    background: $body-background;
+    font-family: $body-font;
+}
+
+.card{
+    margin:10px;
+    h2 {
+        color:#ff0000;
+    }
+    .btn-primary{
+        background-color:#0072ee;
+        color:#FFFFFF;
+    }
+}
+.modal{
+#modal-image{
+    height:50%;
+    width:100%;
+}
+.modal-price{
+    color:#ee0000;
+}
+}

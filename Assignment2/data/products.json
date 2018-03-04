@@ -1,0 +1,93 @@
+[
+    {
+        "id": "1",
+        "name": "iPhone XI",
+        "img":"../../public/img/iphonexi.jpg",
+        "credit": "iDropNews",
+        "price":"$99999",
+        "brief":"a fake iPhone",
+        "description":"Best smart phone that you CAN'T buy"
+    },
+    {
+        "id": "2",
+        "name": "PS5",
+        "img":"../../public/img/ps5.jpg",
+        "credit": "PS5Playstation5.com",
+        "price":"$99999",
+        "brief":"a fake console",
+        "description":"Better than Xbox"
+    },
+    {
+        "id": "3",
+        "name": "XBOX TWO",
+        "img":"../../public/img/xboxtwo.jpg",
+        "credit": "Xbox2Gamer",
+        "price":"$99999",
+        "brief":"a fake console",
+        "description":"Better than Playstation"
+    },
+    {
+        "id": "4",
+        "name": "iPad X",
+        "img":"../../public/img/ipadx.jpg",
+        "credit": "Martin Hajek",
+        "price":"$99999",
+        "brief":"a fake tablet",
+        "description":"Best tablet that you CAN'T buy"
+    },
+    {
+        "id": "5",
+        "name": "1DS",
+        "img":"../../public/img/1ds.jpg",
+        "credit": "EVM Production",
+        "price":"$99999",
+        "brief":"a fake handheld console",
+        "description":"3DS? 2DS? 1DS!"
+    },
+    {
+        "id": "6",
+        "name": "Toothbrush Headphone",
+        "img":"../../public/img/headphone.jpg",
+        "credit": "starecat.com",
+        "price":"$99999",
+        "brief":"a fake headphone",
+        "description":"True wireless headphone"
+    },
+    {
+        "id": "7",
+        "name": "Real Apple laptop",
+        "img":"../../public/img/realapplelaptop.jpg",
+        "credit": "9gag",
+        "price":"$99999",
+        "brief":"a fake laptop",
+        "description":"The laptop that you can eat"
+    },
+    {
+        "id": "8",
+        "name": "Real Apple Watch",
+        "img":"../../public/img/realapplewatch.jpg",
+        "credit": "Mashable.com",
+        "price":"$99999",
+        "brief":"a fake watch",
+        "description":"The smart watch that you can eat"
+    },
+    {
+        "id": "9",
+        "name": "3310 Hammer",
+        "img":"../../public/img/3310.jpg",
+        "credit": "FunnyJokes @flii.by",
+        "price":"$99999",
+        "brief":"a fake tool",
+        "description":"Don't drop it"
+    },
+    {
+        "id": "10",
+        "name": "PSP Water Edition",
+        "img":"../../public/img/waterpsp.jpg",
+        "credit": "LuckyPennyShop @Youtube",
+        "price":"$99999",
+        "brief":"a fake handheld console",
+        "description":"Best game ever!"
+    }
+    
+]
