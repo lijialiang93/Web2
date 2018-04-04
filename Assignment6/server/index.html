@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment 6</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 mt-3">
+                <form>
+                    <div class="form-group">
+                        <label for="username">username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                        <label for="searchQuery">search query</label>
+                        <input type="text" class="form-control" id="searchQuery" placeholder="Enter search query">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">message</label>
+                        <input type="text" class="form-control" id="message" placeholder="Enter message">
+                    </div>
+
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                    <div hidden class="alert alert-success mt-3" role="alert">
+                        Message has been sent
+                    </div>
+                    <div hidden class="alert alert-danger mt-3" role="alert">
+                        Missing information
+                    </div>
+                </form>
+            </div>
+            <div class="col-9" id="image-container"></div>
+        </div>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="./public/js/socket.js"></script>
+    <script src="./public/js/tota11y.min.js"></script>
+</body>
+
+</html>
